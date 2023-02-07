@@ -46,6 +46,13 @@
                         </goals>
                     </execution>
                     <execution>
+                        <id>report</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                    <execution>
                         <id>check</id>
                         <goals>
                             <goal>check</goal>
@@ -63,14 +70,6 @@
                                 </rule>
                             </rules>
                         </configuration>
-                    </execution>
-
-                    <execution>
-                        <id>report</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>report</goal>
-                        </goals>
                     </execution>
                 </executions>
             </plugin>
